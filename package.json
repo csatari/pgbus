@@ -1,0 +1,22 @@
+{
+  "name": "pg_bus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "less-loader": "^2.2.3",
+    "knockout": "^3.4.1",
+    "less": "^2.7.1",
+    "git": "^0.1.5",
+    "ts-loader": "^1.2.1",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC"
+}

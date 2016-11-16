@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./built/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "amd",
+        "target": "es6"
+    },
+    "files": [
+        "./typings/index.d.ts",
+        "./src/login.ts",
+        "./src/main.ts"
+    ]
+}
