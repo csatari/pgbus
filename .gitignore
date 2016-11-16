@@ -3,3 +3,8 @@ bower_components/*
 .vscode/*
 typings/*
 built/*
+*.woff2
+*.svg
+*.ttf
+*.eot
+*.woff

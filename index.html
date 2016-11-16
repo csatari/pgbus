@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Siklóernyős buszpályaudvar - Belépés</title>
-        <link rel="stylesheet" href="built/styles.css">
-    </head>
-    <body>
-        <div class="loginBox">
-            <p>Felhasználónév: <input data-bind="value: username" /></p>
-            <p>Jelszó: <input data-bind="value: password" /></p>
-            <button data-bind="click: loginClicked">Belépés</button>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Siklóernyős buszpályaudvar - Belépés</title>
+    <link rel="stylesheet" href="built/styles.css">
+</head>
+
+<body>
+    <div class="loginBox">
+        <div class="loginChild">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Felhasználónév</label>
+                <input type="email" class="form-control" placeholder="Felhasználónév" data-bind="value: username">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Jelszó</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Jelszó" data-bind="value: password">
+            </div>
+            <div class="buttonParent">
+                <button class="btn btn-default" data-bind="click: loginClicked">Belépés</button>
+            </div>
         </div>
-        <script src="built/login.js"></script>
-    </body>
+    </div>
+    <script src="built/login.js"></script>
+</body>
+
 </html>

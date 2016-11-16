@@ -4,13 +4,19 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-webpack": "0.0.5",
+    "exports-loader": "^0.6.3",
+    "file-loader": "^0.9.0",
+    "git": "^0.1.5",
+    "imports-loader": "^0.6.5",
     "jquery": "^3.1.1",
-    "less-loader": "^2.2.3",
     "knockout": "^3.4.1",
     "less": "^2.7.1",
-    "git": "^0.1.5",
+    "less-loader": "^2.2.3",
     "ts-loader": "^1.2.1",
     "typescript": "^2.0.10",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.3"
   },
   "devDependencies": {

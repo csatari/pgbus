@@ -1,6 +1,7 @@
 import * as ko from "knockout";
 
 require("../style/login.less");
+require("bootstrap-webpack");
 
 class Login {
     username: KnockoutObservable<string> = ko.observable("");
