@@ -3,13 +3,14 @@
     <head>
         <meta charset="UTF-8" />
         <title>Siklóernyős buszpályaudvar - Belépés</title>
+        <link rel="stylesheet" href="built/styles.css">
     </head>
     <body>
-
-        <p>Felhasználónév: <input data-bind="value: username" /></p>
-        <p>Jelszó: <input data-bind="value: password" /></p>
-        <button data-bind="click: loginClicked">Belépés</button>
-
+        <div class="loginBox">
+            <p>Felhasználónév: <input data-bind="value: username" /></p>
+            <p>Jelszó: <input data-bind="value: password" /></p>
+            <button data-bind="click: loginClicked">Belépés</button>
+        </div>
         <script src="built/login.js"></script>
     </body>
 </html>

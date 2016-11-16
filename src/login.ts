@@ -1,5 +1,7 @@
 import * as ko from "knockout";
 
+require("../style/login.less");
+
 class Login {
     username: KnockoutObservable<string> = ko.observable("");
     password: KnockoutObservable<string> = ko.observable("");
